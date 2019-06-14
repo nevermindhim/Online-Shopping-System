@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+		display: inline-block;
+
+}
+.main 
+{
+	padding-top: 10px;
+
+}
+.main .container
+{
+	position: relative;
+	width: 100px;
+	height: 300px;
+	margin: 240px,auto;
+	background:#ffffff ;
+	display: inline-table;
+	overflow: auto;
+	padding: 20px;
+}
+.main .container .box 
+{
+	position: relative;
+	width: auto;
+	height: calc(300px-150px);
+	background: #f7eee5;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	display: inline-block;
+
+
+}
+.main .container .content
+{
+	height: 100px;
+	width: 100%;
+	overflow: auto;
+}
+.main .container .img
+{
+	align-items: center;
+	width: auto;
+	height: auto;
+	max-height: 450px;
+	max-width: 300px;
+
+
+
+}
+.main .container .details
+{
+	text-align: center;
+	overflow:hidden;
+}
+.main .container .price
+{
+	text-align: center;
+	font-style: bold;
+}

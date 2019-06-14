@@ -1,0 +1,57 @@
+body{
+	margin-top: 100px;
+	
+}
+.cpt
+{
+	text-align:center;
+	font-family:Courier New;
+	font-size:1em;
+}
+article
+{	
+	float:right;
+	padding:20px;
+	display:inline;
+	z-index: 1;
+	width:80%;
+	height:680px;
+	position: relative;
+	
+}
+
+
+aside
+{
+	padding:0px;
+	z-index: 1;
+	float:left;
+	width:15%;
+	 text-decoration:bold;
+	 font-size:18px;
+	 font-family:Courier New;
+	 height:500px;
+	 position: relative;
+	
+}
+
+
+table.navig td:hover{
+	
+	background-color:#727a6c;
+	color:black;
+	
+}
+table.navig td
+{
+padding:10px 10px 10px 10px;	
+}
+
+.scroll_bar_for_iframe
+{
+	overflow:hidden;
+	
+}
+table.navig td:link{
+	color: black;
+}
